@@ -13,12 +13,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 25px;
 }
 
 .firstQuestion {
     border: 1px solid black;
     width: 90%;
-    height: 8vh;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -29,10 +30,12 @@
     letter-spacing: 2px;
 }
 p {
+    display: none;
     width: 90%;
-    height: 8vh;
+    height: 9vh;
     word-spacing: 5px;
     letter-spacing: 2px;
-    /* border: 0.5px solid black; */
+    border: 0.5px solid black;
     text-align: center;
+    
 }
